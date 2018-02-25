@@ -1,0 +1,235 @@
+* {
+  box-sizing: border-box;
+  margin:0 auto;
+}
+
+body {
+ 
+    background: url("../images/concrete-texture.png") repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#777777;
+    
+  }
+
+  /* ______________________________HEADER____________________________*/
+
+  .header {
+    background-color: #ffffff;
+    border-bottom: 2px solid #dddddd;
+    margin-bottom: 20px;
+    width: 100%;
+    
+  }
+  .wrapper {
+    width: 960px;
+    margin: 0 auto;
+  }
+  
+  h1, h2,h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+   h1 {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 24px;
+    padding: 30px;
+    width: 300px;
+    margin-left: 20px;
+  }
+
+  nav {
+    width: 350px;
+    float: right;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  nav ul li {
+    display: inline;
+  }
+  nav a {
+    color:#333;
+    font-size: 18px;
+    padding: 10px;
+    border-right: 2px solid #dddddd;
+    text-decoration: none;
+    
+  }
+a:visited {
+  color: none;
+}
+
+  nav ul li:last-child a {
+    border-right: none;
+    padding-right:none;
+  }
+
+  .clearfix {
+    display:block;
+    clear: both;
+  }
+  
+  /* ______________________________END OF HEADER____________________________*/
+  
+  /* ________________________________CONTENT____________________________*/
+  
+
+  /* _________________ INDEX.HTML_______________  */
+  .content {
+    width: 960px;;
+  }
+
+  #left-column, #right-column {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 2px solid #dddddd;
+  }
+    #left-column {
+      width: 650px;
+      float: left;
+      margin-right: 40px;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 20px;
+      margin-top: 20px;
+
+    }
+
+    #lefrt-column, h2 {
+      font-size: 24px;
+      padding:20px 0;
+      border-bottom: 2px solid #dddddd;
+      text-align: left;
+    }
+
+    .inline-image {
+      float: left;
+      margin:20px 10px 10px 0px;
+      border: 1px solid #ffffff;
+      width: 200px;
+
+      
+    }
+
+    #right-column {
+      width: 270px;
+      
+
+    }
+    #right-column, h3 {
+      font-size: 20px;
+      padding:20px ;
+      border-bottom: 2px solid #dddddd;
+      text-align: center;
+
+    }
+
+    #right-column, ul {
+      text-align: left;
+      
+    }
+
+    #right-column, ul li {
+      display: inline-block;
+      
+    }
+
+    #right-column ul li {
+      display: inline-block;
+      margin-top: 20px;
+      
+    }
+
+    ul li img {
+      width: 40px;
+      display: table-row;
+      overflow: right;
+    }
+     /*_____________________PORTFOLIO.HTML____________________  */
+
+    .port-item {
+      position: relative;
+      background-color: rgba(65,160,155, 10);
+      margin-bottom: 20px;
+      width: 35%;
+      text-align: center;
+      color:#eee;
+      flex-flow: column;
+
+    }
+  
+
+
+
+
+
+    /*_____________________CONTACT.HTML____________________  */
+
+    form {
+      font-size: 18px;
+      display: block;
+    }
+
+    lable {
+      font-size: 20px;
+      margin:0 30;
+    }
+
+    form input {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+      padding: 10px;
+      border: 2px solid #dddddd;
+    }
+
+    textarea {
+      width: 100%;
+      height: 250px;
+      display: block;
+      border: 2px solid #dddddd;
+      padding: 10px;
+    }
+
+    button {
+      background-color: #4aaaa5;
+      padding: 10px;
+      width: 20%;
+      margin-top: 10px;
+      color: #ffffff;
+      font-size: inherit;
+    }
+  
+  /* ________________________________END OF CONTENT____________________________*/
+  
+  /* ________________________________CONNECT____________________________*/
+  
+  
+  /* FOOTRT COMPLETED */
+  footer {
+    clear: both;
+    position: fixed;
+    right:0;
+    bottom: 0;
+    width: 100%;
+    background-color: #666666;
+    border-top: 3px solid #42a09a;
+    color: #eee;
+    text-align: center;
+    font-size: 15px;
+    padding:30px;
+    z-index: 100;
+  }
+  
+  
+  
+  
+  
+  
